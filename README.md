@@ -17,7 +17,7 @@ These instructions will get you a copy of the project up and running on your loc
 * [Express](http://expressjs.com/) - Web Framework for Node.js
 * [mySQL](https://www.mysql.com/) - Database
 
-### Goals
+## Goals
 
 - [x] Create and link a database
 - [x] Display data from database in the app
@@ -25,7 +25,7 @@ These instructions will get you a copy of the project up and running on your loc
 - [x] Use SASS for styling
 - [x] Use Node and Express
 
-### Installing
+## Installing
 
 Start by opening terminal on your computer
 
@@ -65,7 +65,7 @@ $ npm start
 
 The site should run on localhost:3000
 
-### Acknowledgements
+## Acknowledgements
 
 * Fonts are from Adobe Fonts (https://fonts.adobe.com)
 * Stock photographs for each favourite thing from Pexels (https://pexels.com)
