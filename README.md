@@ -1,4 +1,4 @@
-# Blake_A_FavouriteThings
+# My Favourite Things
 This is an assignment for MMED 3039. I have to build a mobile-first one page app that showcases three of my favourite things. I have to create a mySQL database that has at least 5 columns, and use it to display the data in the app.  
 
 ## Getting Started
