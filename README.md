@@ -1,10 +1,6 @@
 # My Favourite Things
 This is an assignment for MMED 3039. I have to build a mobile-first one page app that showcases three of my favourite things. I have to create a mySQL database that has at least 5 columns, and use it to display the data in the app.  
 
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
 ## Author
 
 * **Ariana Blake** (https://github.com/ariblake)
