@@ -10,21 +10,23 @@
     <!-- css stuff -->
     <!-- link to reset -->
     <link rel="stylesheet" href="css/main.css">
-    <title>Document</title>
+    <title>Ariana's Favourite Things</title>
 </head>
 
 <body>
-    <h1>Fun with Modules!</h1>
-    <nav data-module="nav">
-        <!-- nav elements must have nav-item -->
-        <ul>
-            <li><a href="#" class="nav-item">1</a></li>
-            <li><a href="/2" class="nav-item">2</a></li>
-            <li><a href="#section3" class="nav-item">3</a></li>
-            <li><a href="#section4" class="nav-item">4</a></li>
-            <li><a href="#section5" class="nav-item">5</a></li>
-        </ul>
-    </nav>
+    <header id="mainHeader">
+        <img src="images/ariana.svg" id="illustration">
+        <h1>Ariana's Favourite Things</h1>
+        <nav data-module="nav">
+            <!-- nav elements must have nav-item -->
+            <ul>
+                <li><a href="#" class="nav-item">1</a></li>
+                <li><a href="/2" class="nav-item">2</a></li>
+                <li><a href="#section3" class="nav-item">3</a></li>
+            </ul>
+        </nav>
+    </header>
+    
 
     <main>
         {{{ body }}}
@@ -37,8 +39,6 @@
             <li><a href="#" class="nav-item">1</a></li>
             <li><a href="/2" class="nav-item">2</a></li>
             <li><a href="#section3" class="nav-item">3</a></li>
-            <li><a href="#section4" class="nav-item">4</a></li>
-            <li><a href="#section5" class="nav-item">5</a></li>
         </ul>
     </footer>
 
@@ -66,4 +66,4 @@
     <!-- end templates-->
 </body>
 
-</html>
+</html> 
