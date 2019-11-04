@@ -1,13 +1,40 @@
 
 nav {
-    background-color: pink;
+    
 
     ul {
         margin: 0;
-        padding: 0;
+        padding-bottom: 5%;
+        text-align: center;
 
-        li { display: inline; }
+        li { 
+            display: inline; 
+            padding-left: 3%;
+            padding-right: 3%;
+            
+        }
     }
 
-    a { text-decoration: none; }
+    a { 
+        text-decoration: none; 
+        font-family: $header-font;
+        font-size: 2em;
+        color: white;
+    }
+
+    a:hover { 
+        color: pink;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    nav {
+        ul {
+            li {
+                padding-left: 1%;
+                padding-right: 1%;
+            }
+        }
+    }
 }
