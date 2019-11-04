@@ -1,7 +1,7 @@
 @import '_vars';
 @import 'modules/_header';
 @import 'modules/_navbar';
-@import 'modules/_users';
+@import 'modules/_things';
 @import 'modules/_lightbox';
 @import 'modules/_footer';
 
@@ -14,11 +14,10 @@ body {
 }
 
 h1 { color: $heading-color; font-family: $header-font; font-weight: 400; font-size: 3em;} 
-h2, h3 { color: $heading-color }
+h2, h3 { color: $things-text-color; }
 
-.panel { min-height: 60vh; }
+.panel { min-height: 60vh; margin: 0;}
 
-#sectionThings { background-color: rgb(146, 218, 212);}
 
 /*#to-top { position: fixed; bottom: 10px; right: 10px; display: none; }*/
 
