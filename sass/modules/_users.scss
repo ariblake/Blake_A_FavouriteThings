@@ -5,7 +5,7 @@
     justify-content: space-evenly;
 
     .user-panel {
-        /*flex: 0 1 200px;*/
+        
         text-align: center;
         /*padding: 8px;*/
 
@@ -27,7 +27,7 @@
 @media screen and (min-width: 900px) {
     .team {
         .user-panel { 
-            /*flex: 1 1;*/
+            flex: 1 1;
 
             .u-avatar { max-width: 100%; }
         }

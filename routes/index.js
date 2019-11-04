@@ -8,7 +8,7 @@ router.get('/', (req, res) => {
     // should really get the user data here and then fetch it thru, but let's try this asynchronously
     console.log('at the main route');
 
-    let query = "SELECT ID, avatar, Name, Logo, JobTitle FROM tbl_card";
+    let query = "SELECT ID, Title, Description, Image, Category FROM tbl_things";
 
     sql.query(query, (err, result) => {
         if (err) { throw err; console.log(err); }
@@ -26,7 +26,7 @@ router.get('/:id', (req, res) => {
     console.log('hit a dynamic route!')
     console.log(req.params.id);
 
-    let query = `SELECT * FROM tbl_bio WHERE profID="${req.params.id}"`;
+    let query = `SELECT * FROM tbl_things WHERE ID="${req.params.id}"`;
 
     sql.query(query, (err, result) => {
         if (err) { throw err; console.log(err); }
@@ -35,11 +35,11 @@ router.get('/:id', (req, res) => {
 
         //turn our social property into an array - it's just text in the DB which isn't really anything we can work with
         //split on the comma so that each word is one index in the array
-        result[0].social = result[0].social.split(",").map(function(item) {
-            item = item.trim(); //remove the extra spaces from each word
+        //result[0].social = result[0].social.split(",").map(function(item) {
+        //    item = item.trim(); //remove the extra spaces from each word
 
-            return item;
-        }); 
+        //    return item;
+        //}); 
 
         //console.log('after split: ', result[0]); 
 

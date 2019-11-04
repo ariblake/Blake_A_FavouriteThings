@@ -5,20 +5,20 @@ const myVM = (() => {
     let userButtons = document.querySelectorAll('.u-link'),
         lightbox = document.querySelector('.lightbox');
 
-    function renderSocialMedia(socialMedia) {
-        return `<ul class="u-social">
-            ${socialMedia.map(item => `<li>${item}</li>`).join('')}
-        </ul>`
-    }
+    //function renderSocialMedia(socialMedia) {
+     //   return `<ul class="u-social">
+     //       ${socialMedia.map(item => `<li>${item}</li>`).join('')}
+     //   </ul>`
+    //}
 
     function parseUserData(person) { //person is the database result
         let targetDiv = document.querySelector('.lb-content'),
             targetImg = lightbox.querySelector('img');
 
         let bioContent = `
-            <p>${person.bio}</p> 
-            <h4>Social Media:/</h4>
-            ${renderSocialMedia(person.social)}
+            <h2>${person.Title}</h2>
+            <p>${person.Category}</p> 
+            <p>${person.Description}</p> 
         `;
 
         console.log(bioContent);
