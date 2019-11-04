@@ -9,10 +9,11 @@
     top: 0;
     z-index: 5000;
     padding: 5%;
-
     background-color: rgba(0, 0,0, 0.9);
 
-    .lightboxImg { max-width: 90%; }
+    .lightboxImg { 
+        max-width: 90%; 
+    }
 
     .close {    
         right: 24px;
@@ -37,7 +38,9 @@
     }
 }
 
-.show-lb { display: flex !important; }
+.show-lb { 
+    display: flex !important; 
+}
 
 @media screen and (min-width: 900px) {
     .lightbox {

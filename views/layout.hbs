@@ -29,7 +29,6 @@
         </div>
     </header>
     
-
     <main>
         {{{ body }}}
     </main>
@@ -39,27 +38,20 @@
         <a id="to-top" href="#" class="nav-item">back to top</a>
     </footer>
 
-    
 
     <script type="module" src="js/main.js"></script>
-    <script>
-        var name = "Justin";
-        console.log('name in main file: ' + name);
-    </script>
 
     <!-- templates -> these don't get rendered immediately -->
-    <template id="user-template">
+    {{!-- <template id="user-template">
         <!-- you can put all kinds of markup here - semantic tagging, etc -->
         <div class="user-panel">
             <div class="user-panel-header">
                 <img class="u-avatar"></img>
                 <h1 class="u-name"></h1>
             </div>
-
             <button class="user-button">More Details</button>
         </div>
-    </template>
+    </template> --}}
     <!-- end templates-->
 </body>
-
 </html> 
