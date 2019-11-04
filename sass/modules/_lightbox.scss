@@ -3,7 +3,8 @@
     //display: flex;
     flex-direction: column;
     min-height: 100vh;
-    width: 100%;
+    max-width: 100%;
+    width: 90%;
     position: fixed;
     top: 0;
     z-index: 5000;
@@ -39,5 +40,9 @@
 .show-lb { display: flex !important; }
 
 @media screen and (min-width: 900px) {
-    .lightboxImg { width: 50%; }
+    .lightbox {
+        max-width: 100%;
+        .lightboxImg { width: 50%; }
+    }
+    
 }
