@@ -45,7 +45,10 @@
 @media screen and (min-width: 900px) {
     .lightbox {
         max-width: 100%;
-        .lightboxImg { width: 50%; }
+        flex-direction: row;
+        .lightboxImg { 
+            width: 100%; 
+        }
     }
     
 }
