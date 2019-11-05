@@ -20,6 +20,7 @@ This is an assignment for MMED 3039. I have to build a mobile-first one page app
 - [x] Use dynamic routes to showcase favourite things in a lightbox
 - [x] Use SASS for styling
 - [x] Use Node and Express
+- [x] Make an error route
 
 ## Installing
 
